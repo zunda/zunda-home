@@ -31,7 +31,7 @@ a[href]:hover, a[href]:focus, a[href]:active {
 }
 
 body {
-	font-family: serif;
+  font-family: serif;
   line-height: 1.4;
   background-color: #d8e0d0;
   color: #006020;
@@ -58,7 +58,7 @@ span.adminmenu {
 }
 
 h1 {
-	font-family: sans-serif;
+  font-family: sans-serif;
   background-color: #80B020;
   border-style: outset;
   border-color: #80B020;
@@ -83,7 +83,7 @@ h1::before {
 }
 
 h2 {
-	font-family: sans-serif;
+  font-family: sans-serif;
   background-color: #E8F0E0;
   border-style: outset;
   border-color: #E8F0E0;
@@ -93,14 +93,14 @@ h2 {
 }
 
 h3, h4, h5 {
-	font-family: sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
   margin: 1em 0em 0em 0.2em;
   padding: 0em 0em 0em 0.3em;
 }
 
 h3.recentitem {
-	font-family: sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
   margin: 0.2em 0em 0em 0.2em;
   padding: 0em 0em 0em 0.3em;
@@ -111,21 +111,21 @@ table {
   line-height: 1.2;
   margin: 0.2em 2em 0.2em 2em;
   padding: 0.2em;
-	border-collapse: collapse;
-	empty-cells: show;
-	border-style: none;
+  border-collapse: collapse;
+  empty-cells: show;
+  border-style: none;
 }
 
 td, th {
   padding: 0.25em;
-	border-collapse: collapse;
-	border-style: solid;
-	border-width: 1px;
-	text-align: center;
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
 }
 
 th {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 p, address {
@@ -158,10 +158,10 @@ div.recent-comment {
 }
 
 ol.recent-comment {
-	list-style-type: none;
-	display: inline;
+  list-style-type: none;
+  display: inline;
   text-decoration: none;
-	font-family: serif;
+  font-family: serif;
   margin: 0em 0em 0em 0em;
   padding: 0em 0em 0em 0em;
   background-color: #d8e0d0;
@@ -170,9 +170,9 @@ ol.recent-comment {
 }
 
 div.recent-comment li, div.recent-comment h2 {
-	list-style-type: none;
+  list-style-type: none;
   font-size: 75%;
-	display: inline;
+  display: inline;
   font-weight: normal;
   margin: 0em 0em 0em 0em;
   padding: 0em 0em 0em 0em;
@@ -208,6 +208,10 @@ span.date, span.nyear {
 }
 
 span.title {
+}
+
+span.code {
+  font-family: monospace;
 }
 
 div.body {
@@ -288,6 +292,8 @@ p.referer {
 }
 
 hr {
+  clear: both;
+  margin: 8px;
 }
 
 hr.sep {
@@ -322,7 +328,7 @@ div.todo li {
 }
 
 div.recent_list h3, div.sidemenu h3 {
-	font-family: sans-serif;
+  font-family: sans-serif;
   white-space: nowrap;
 }
 
@@ -379,16 +385,16 @@ span.todo-too-late {
 }
 
 .highlight {
-	background-color: #FAFF20;
-	color: blue;
+  background-color: #FAFF20;
+  color: blue;
 }
 
 img.right {
-	float: right;
-	margin: 1em;
+  float: right;
+  margin: 0.5em 0em 0.5em 0.5em;
 }
 
 img.left {
-	float: left;
-	margin: 1em;
+  float: left;
+  margin: 0.5em 0.5em 0.5em 0em;
 }
