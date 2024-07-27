@@ -238,6 +238,12 @@ pre.src {
   overflow: scroll;
 }
 
+pre.vcard {
+  background-color: transparent;
+  color: #006020;
+  overflow: scroll;
+}
+
 div.comment {
   background-color: white;
   color: #0000E0;
