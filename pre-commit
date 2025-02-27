@@ -3,4 +3,4 @@
 # usage:
 # $ cat pre-commit >> .git/hooks/pre-commit
 # $ chmod +x .git/hooks/pre-commit
-git diff --exit-code index.html index.sig.txt && gpg --verify index.sig.txt index.html
+make verify
