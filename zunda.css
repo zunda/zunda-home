@@ -405,6 +405,10 @@ img.left {
   margin: 0.5em 0.5em 0.5em 0em;
 }
 
+div.clear {
+  clear: both;
+}
+
 ul.contacts {
   list-style: none;
   padding-left: 1em;
