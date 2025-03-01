@@ -300,6 +300,7 @@ p.referer {
 hr {
   clear: both;
   margin: 8px;
+  color: #80B020;
 }
 
 hr.sep {
