@@ -241,7 +241,7 @@ pre.src {
 pre.vcard {
   background-color: transparent;
   color: #006020;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 div.comment {
