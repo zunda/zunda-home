@@ -21,6 +21,7 @@ verify-online:
 		echo "$$b.html"; \
 		curl -so verify-online.html https://$(DOMAIN)/$$b.html && \
 		curl -so verify-online.sig.txt https://$(DOMAIN)/$$b.sig.txt && \
+		diff -u $$b.html verify-online.html; \
 		gpg --verify verify-online.sig.txt verify-online.html; \
 		rm -f verify-online.html verify-online.sig.txt \
 	; done
