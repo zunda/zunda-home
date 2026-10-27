@@ -12,7 +12,7 @@ signature:
 	for html in *.html; do \
 		sig=`basename "$$html" .html`.sig.txt; \
 		gpg --verify "$$sig" "$$html" 2>/dev/null ||\
-		gpg -v -ba -o "$$sig" "$$html" \
+		gpg -v -ba --yes -o "$$sig" "$$html" \
 	; done
 
 DOMAIN=zunda.ninja
